@@ -1,0 +1,33 @@
+html {
+    background: pink;
+}
+div {
+margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    font-size: 300px;
+    color: white;
+    animation: myAnim 2s ease 0s infinite normal forwards;
+    
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0.8;
+		transform: scale(0.2);
+	}
+
+	80% {
+		opacity: 0;
+		transform: scale(1.2);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(2.2);
+	}
+}
